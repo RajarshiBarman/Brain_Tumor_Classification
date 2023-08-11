@@ -9,7 +9,7 @@ Our project draws inspiration from the pressing need to revolutionize brain tumo
 
 Our project is designed to transform brain tumor detection by harnessing the power of advanced image processing techniques. It effectively analyzes complex medical brain images, including MRI and CT scans, to accurately identify and locate tumors. Through sophisticated segmentation algorithms, the system precisely outlines tumor boundaries, aiding medical professionals in diagnosis and treatment planning. Leveraging machine learning integration, our solution enhances accuracy by learning from data patterns, contributing to early detection and reduced false positives/negatives. With a user-friendly interface and real-time processing capabilities, medical practitioners can seamlessly interact with the system, facilitating efficient and informed decision-making. Beyond detection, our system aims to determine tumor stages and provide potential treatment options, embodying a comprehensive tool for elevating brain tumor diagnostics and care.
 
-# How I built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
+# How We built it ![image](https://user-images.githubusercontent.com/72274851/218502434-f6e66043-0db0-4f85-b7f4-f33b2d33df1f.png)
 In building our innovative Brain Tumor Detection system, we followed a comprehensive approach that combined cutting-edge technologies and meticulous design. Here's how we brought our vision to life:
 
 1. **Requirement Analysis:** We began by understanding the challenges of brain tumor detection and the specific needs of medical professionals for enhanced diagnostics.
@@ -30,7 +30,7 @@ In building our innovative Brain Tumor Detection system, we followed a comprehen
 
 By seamlessly combining the expertise of our team, cutting-edge technologies, and a user-centric design approach, we created a sophisticated Brain Tumor Detection solution that embodies innovation, accuracy, and enhanced patient care.
 
-# What I learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
+# What We learned ![image](https://user-images.githubusercontent.com/72274851/218499685-e8d445fc-e35e-4ab5-abc1-c32462592603.png)
 
 
 ![image](https://user-images.githubusercontent.com/72274851/220130227-3c48e87b-3e68-4f1c-b0e4-8e3ad9a4805a.png)
