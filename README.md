@@ -53,9 +53,3 @@ Throughout the journey of developing our Brain Tumor Detection project, our team
 8. **Innovation and Creativity:** The project encouraged us to think creatively to address complex challenges and innovate new solutions that have real-world impact.
 
 9. **Problem-Solving Skills:** We enhanced our problem-solving skills by tackling intricate issues and iteratively refining our solution based on feedback and testing.
-
-10. **Communication Skills:** Effective communication with team members, mentors, and medical experts was key to translating technical aspects into understandable insights.
-
-11. **Project Management:** Managing a complex project taught us organizational skills, time management, and the importance of breaking down tasks for smoother execution.
-
-12. **Continuous Learning:** The project highlighted the importance of staying updated with the latest advancements in medical imaging, image processing, and machine learning.
