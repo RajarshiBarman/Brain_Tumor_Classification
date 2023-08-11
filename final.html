@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brain Tumor Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #content {
+            padding: 20px;
+            background-color: white;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        #result {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        #upload-btn-wrapper {
+            position: relative;
+            overflow: hidden;
+            display: inline-block;
+        }
+        #upload-btn-wrapper input[type=file] {
+            font-size: 100px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+        #upload-btn-wrapper .btn {
+            border: 2px solid gray;
+            color: gray;
+            background-color: white;
+            padding: 8px 20px;
+            border-radius: 8px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        #upload-btn-wrapper .btn:hover {
+            border-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Brain Tumor Detection</h1>
+        </header>
+        <div id="content">
+            <h2>Upload an MRI Scan</h2>
+            <input type="file" id="imageInput">
+            <div id="upload-btn-wrapper">
+                <button class="btn" onclick="predict()">predict</button>  
+            </div>
+            <div id="prediction">
+                <!-- Detection result will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        function predict() {
+            const fileInput = document.getElementById('imageInput');
+            const image = fileInput.files[0];
+
+            const formData = new FormData();
+            formData.append('image', image);
+
+            fetch('http://127.0.0.1:5000/predict', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json()) // Parse the response JSON
+            .then(data => {
+                const prediction = data.prediction;
+                console.log(prediction);
+                document.getElementById('prediction').textContent = `Prediction: ${prediction}`;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+                    }
+    </script>
+</body>
+</html>
+
