@@ -53,3 +53,6 @@ Throughout the journey of developing our Brain Tumor Detection project, our team
 8. **Innovation and Creativity:** The project encouraged us to think creatively to address complex challenges and innovate new solutions that have real-world impact.
 
 9. **Problem-Solving Skills:** We enhanced our problem-solving skills by tackling intricate issues and iteratively refining our solution based on feedback and testing.
+
+# Model Evaluation
+![download](https://github.com/RajarshiBarman/Brain_Tumor_Classification/assets/71805087/311d861a-7013-41a8-aa38-6cdfbebad90d)
